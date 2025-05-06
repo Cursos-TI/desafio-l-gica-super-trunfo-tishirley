@@ -8,6 +8,8 @@ int main() {
         int populacaoB = 6748000;
         int ponto1 = 50;
         int ponto2 = 30;
+        int cidade1 = SP;
+        int cidade2 = RJ;
 
     printf("Digite o código da cidade: ");
     scanf("%s", codigo);
