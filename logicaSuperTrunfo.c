@@ -1,38 +1,46 @@
 #include <stdio.h>
 
-int main() {
-        char estado;
-        char codigo[3];
-        char nome[20];
-        int populacaoA = 12325000;
-        int populacaoB = 6748000;
-        int ponto1 = 50;
-        int ponto2 = 30;
-        int cidade1 = SP;
-        int cidade2 = RJ;
+int main(){
+    char estado;
+    char codigo[3];
+    char nome[20];
+    int populacao;
+    int populacaoA01 = 12325000;
+    int populacaoB01 = 6748000;
+    float area;
+    float pib;
+    int pontos;
+    int pontoA01 = 50;
+    int pontoB01 = 30;
+    int resultado1, resultado2;
+
+
+    printf("Desafio Mestre: Lógica Super Trunfo\n");
+    printf("\n");
+
+    printf("Carta 1:\n");
+    printf("Estado: A\n");
+    printf("Código: A01\n");
+    printf("Nome da Cidade: São Paulo\n");
+    printf("População: 12325000\n");
+    printf("Área: 1521.11 km²\n");
+    printf("PIB: 699.28 bilhões de reais\n");
+    printf("Números de Pontos Turísticos: 50\n");
+    printf("\n");
+
+
+    printf("Carta 2:\n");
+    printf("Estado: B\n");
+    printf("Código: B01\n");
+    printf("Nome da Cidade: Rio de Janeiro\n");
+    printf("População: 6748000\n");
+    printf("Área: 1200.25 km²\n");
+    printf("PIB: 300.50 bilhões de reais\n");
+    printf("Número de Pontos Turísticos: 30\n");
+    printf("\n");
 
     printf("Digite o código da cidade: ");
     scanf("%s", codigo);
-  
-    printf("Digite o estado: ");
-    scanf("%s", estado);
-
-    printf("Digite o nome: ");
-    scanf("%s", nome);
-
-
-    if (populacaoA > populacaoB) {
-         printf("Cidade 1 tem maior população.\n");
-     } else {
-        printf("Cidade 2 tem maior população.\n");
-     }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
     return 0;
 }
